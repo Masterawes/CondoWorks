@@ -1,7 +1,7 @@
 # CondoWorks
 
 This program contains two files that are for CondoWorks UW Co-op Coding Test.
-Written by Francis He.
+Written by Francis He (f27he@uwaterloo.ca).
 
 ## Start-up
 
