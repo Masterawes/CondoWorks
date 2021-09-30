@@ -1,7 +1,7 @@
 # CondoWorks
 
 This program contains two files that are for CondoWorks UW Co-op Coding Test.
-Written by Francis He
+Written by Francis He.
 
 ## Start-up
 
@@ -22,7 +22,7 @@ node parser.js test-q1.txt
 Parser takes the file name as the argument, in the place of the text file name. 
 
 
-To run the Scraper
+To run the Scraper:
 
 ```bash
 node scraper.js Invoice.pdf
