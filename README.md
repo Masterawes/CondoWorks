@@ -25,7 +25,7 @@ Parser takes the file name as the argument, in the place of the text file name.
 To run the Scraper
 
 ```bash
-node scraper.js Invoice.pdf
+node scraper.js [username] [password] [filename].pdf
 ```
 
-Scraper takes the desired file name as the argument, in the place of the pdf file name. If not stated, defaults to Invoice.pdf in the local folder. 
+Scraper takes 3 arguments: username, password and desired PDF filename. Username and password are required. If desired PDF filename is not given, default name is given as Invoice.pdf. 

@@ -5,7 +5,10 @@ const puppeteer = require("puppeteer");
 
 // Set argument for download file name
 const args = process.argv.slice();
-const outputFile = args[2];
+const username = args[2];
+const password = args[3];
+const outputFile = args[4];
+
 
 (async () => {
     // Open headless browser (Chromium)
@@ -18,8 +21,8 @@ const outputFile = args[2];
     // Sign in Logic
     await page.waitForSelector("#Email");
     await page.waitForSelector("#Password");
-    await page.type("#Email", "coop.test@condoworks.co");
-    await page.type("#Password", "MyTesting711");
+    await page.type("#Email", username);
+    await page.type("#Password", password);
     await page.click("#btnSubmit");
 
     // Clicks Top-left Toggle Button
